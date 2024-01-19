@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url(https://db.onlinewebfonts.com/c/4c19fc875e7ba1e6831129de3ab5ac0b?family=Retro+Gaming);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Retro Gaming";
+    background-image: url('https://img.freepik.com/free-vector/pixel-art-vacation-background_52683-86708.jpg?w=900&t=st=1705663433~exp=1705664033~hmac=c8bf800482e2d4b292565a9f768ad0bc131a995cf8deb40da10e9e4012de8cfe');
+    background-size:contain;
+    color: #fff;
+}
+
+#card {
+    border-radius: 25px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    height: 440px;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+}
+
+#card * {
+    margin: 6px;
+}
+
+img {
+    width: 200px;
+}
+
+h3 {
+    padding: 5px;
+    font-size: 24px;
+}
+
+p {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9800; 
+    color: #fff; 
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Retro Gaming";
+  }
+  
+  button:hover {
+    background-color: #e18700; 
+    color: #fff; 
+  }
+  
+  button:active {
+    background-color: #e18700; 
+    color: #ccc;
+    transform: translateY(2px);
+  }
+  
+  
+  
